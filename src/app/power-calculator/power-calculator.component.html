@@ -1,0 +1,7 @@
+<h2>Power Calculator</h2>
+<div>Power: <input type="number" [(ngModel)]='power'></div>
+<div>Boost Factor: <input type="number" [(ngModel)]='factor'></div>
+
+<p>
+    <b>Result : {{power | boostFactor: factor}}</b>
+</p>
